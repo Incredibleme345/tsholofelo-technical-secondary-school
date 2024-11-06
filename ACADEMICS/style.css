@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+.container{
+    display: contents;
+   
+    align-items: center;
+    text-align: center;
+}
+.image_align {
+    display: inline-block;
+    align-items: center;
+    
+    text-align: right;
+    margin-bottom: 30px;
+    
+    margin-right: 91%;
+    
+}
+.text {
+    color: beige;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.main-logo {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.main-content {
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.container #times {
+    font-size: 30px;
+    color: #f0525f;
+}
+.back-arrow {
+    margin-top: 30px;
+    margin-right: 95%;
+
+    
+}   
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+html {
+    background-color:rgb(255, 248, 249);
+}
+.heading-background {
+    background-color:#fc590e ;
+    width: 100%;
+    
+}
+.footer-distributed {
+    background-color: #2f0f08; /* Change this color to your desired color */
+    color: #fff; /* Text color */
+    padding: 20px;
+}
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 40%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fc590e;
+}
+.space {
+    color: #f0525f;
+    margin-right: 30px;
+    padding-left:5px ;
+}
+
+ul, #myUL {
+    list-style-type: none;
+  }
+
+
+#myUL {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.caret-btn {
+    background-color: #fc590e;
+    color: white;
+    padding-right: 70%;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: 5%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 10px;
+    width: 90%; 
+    text-align: left ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: larger;
+    display: inline;
+
+}
+
+
+.caret-btn::before {
+    content: "\25B6";
+    color: white;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.caret-down::before {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
+.head1 {
+    color: #343232;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 4px;
+    padding-bottom: 15px;
+}
+
+.nested {
+    display: none;
+    margin-left: 10%;
+    font-size: larger;
+}
+
+.active {
+    display: block;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    text-decoration: none; /* Added to remove underline */
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+    color: #ffffff; /* Added to change color on hover */
+}
+
+.footer-distributed .footer-icons a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-distributed .footer-icons a i.fa-facebook:before {
+    content: "\f09a";
+}
+
+.footer-distributed .footer-icons a i.fa-instagram:before {
+    content: "\f16d";
+}
+
+.footer-distributed .footer-icons a i.fa-linkedin:before {
+    content: "\f08c";
+}
+
+.footer-distributed .footer-icons a i.fa-twitter:before {
+    content: "\f099";
+}
+
+.footer-distributed .footer-icons a i.fa-youtube:before {
+    content: "\f167";
+}
+
+/**************************************************************************************************/
+ 
+
+body{  
+    width: 100%;  
+    min-height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-content: center;  
+}
+.box-container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.box {
+    width: 100%;
+    padding: 15px;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+.box1{  
+    background-color: hsl(30, 100%, 70%);  
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px; 
+    margin-bottom: 30px; 
+}  
+.box2{  
+    background-color: hsl(30, 100%, 50%); 
+    margin-bottom: 30px; 
+}  
+.box3{  
+    background-color: hsl(30, 100%, 20%);  
+    border-top-right-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    margin-bottom: 30px; 
+}  
+.content{  
+    padding: 10px;  
+}  
+h1{  
+    color: brown;  
+    text-transform: uppercase;  
+    font-family: sans-serif;  
+    margin: 20px 0;  
+}  
+p{  
+    color: hsla(0,0%,100%,0.75);  
+    font-family: Arial, sans-serif; 
+}  
+.btn{  
+    margin: 10px 0;  
+    padding: 15px 40px;  
+    border: 0;  
+    border-radius: 30px;  
+    outline: none;  
+    background-color: #FFF;  
+    font-size: 15px;  
+    cursor: pointer;  
+    font-family: 'Lexend Deca', sans-serif;  
+    font-weight: 700;  
+}  
+.btn1{  
+    color: hsl(179, 100%, 17%);  
+}  
+.btn2{  
+    color: hsl(179, 100%, 17%);   
+}  
+.btn3{  
+    color: hsl(179, 100%, 17%);  
+}  
+.btn:hover{  
+    background-color: transparent;  
+    border: 2px solid #ff4d00;  
+    color: #FFF;  
+    transition: 0.4s;  
+}  
+/* Normal Flow */
+.container {
+   text-align: center; /* Align text in the center */
+   margin-top: 20px; /* Add space from the top */
+ }
+ 
+ /* Flexbox */
+ .container {
+   display: flex;
+   justify-content: center; /* Horizontally center content */
+   align-items: center; /* Vertically center content */
+ }
+ body {
+   position: relative; /* Set body position to relative */
+   color: rgb(70, 70, 70);
+ }
+ 
+ .positioned-text {
+   position: absolute; /* Position the text absolutely */
+   top: 75%; /* Adjust the vertical position */
+   left: 35%; /* Adjust the horizontal position */
+   transform: translate(-30%, -50%); /* Center the text */
+   text-align: center;
+   padding: 10px; /* Optional: Add padding around the text */
+   color: black;
+   font-size: x-large;
+ }
+ .back-icon {
+    font-size: 44px;
+    color:black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@media (min-width: 600px) {
+    .box {
+        width: 45%;
+    }
+}
+
+@media (min-width: 900px) {
+    .box {
+        width: 30%;
+    }
+}
+.consistent-frame {
+    border: 1px solid #ed0505; /* You can adjust border styles and color as needed */
+}

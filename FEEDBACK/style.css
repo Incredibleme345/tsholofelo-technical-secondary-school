@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    padding-top: 60px; /* Adjust the padding to match the height of the header */
+}
+
+.form-box {
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Adjustments for form elements */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #8c2f04;
+    border-radius: 5px;
+    background-color: #c1b6b1;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8d390b;
+    color: #000000;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8c2f04;
+}
+
+
+.footer-distributed {
+    color: #fff; /* Text color */
+    padding: 20px;
+    background-color: #2f0f08;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fc590e;
+}
+
+.icon-footer {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.line {
+    height: 3px;
+    width: 98%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    margin-top: 25px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    background-color: #3F71EA;
+    color: #8d4416;
+}
+
+.footer-icons a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-icons a i.fa-facebook:before {
+    content: "\f09a";
+}
+
+.footer-icons a i.fa-instagram:before {
+    content: "\f16d";
+}
+
+.footer-icons a i.fa-linkedin:before {
+    content: "\f08c";
+}
+
+.footer-icons a i.fa-twitter:before {
+    content: "\f099";
+}
+
+.footer-icons a i.fa-youtube:before {
+    content: "\f167";
+}
+
+@media (max-width: 200px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+.icon-footer {
+    display: inline-block; /* or use 'inline' */
+    margin-right: 10px; /* add some margin for spacing */
+}
+
+i {
+    margin-right: 5px; /* add some margin for spacing between icon and text */
+}
+.background {
+    background-color: #8c2f04;
+    width: 100%;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 5px;
+}

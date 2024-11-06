@@ -1,0 +1,209 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.footer-distributed {
+    background-color: #2f0f08; /* Change this color to your desired color */
+    color: #fff; /* Text color */
+    padding: 20px;
+}
+#downloadBtn {
+    background-color: #8c2f04;
+    margin-left: 20px;
+    padding: 5px;
+    font-weight: bold;
+    border-color: #2f0f08;
+ 
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    background-color: #8c2f04;
+}
+.download {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+.main-content {
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.icon-footer {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text {
+    color: beige;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.line {
+    height: 3px;
+    width: 98%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    margin-top: 25px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    background-color: #3F71EA;
+    color: #be6464;
+}
+
+.footer-icons a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-icons a i.fa-facebook:before {
+    content: "\f09a";
+}
+
+.footer-icons a i.fa-instagram:before {
+    content: "\f16d";
+}
+
+.footer-icons a i.fa-linkedin:before {
+    content: "\f08c";
+}
+
+.footer-icons a i.fa-twitter:before {
+    content: "\f099";
+}
+
+.footer-icons a i.fa-youtube:before {
+    content: "\f167";
+}
+
+.topic {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info {
+    color: gray;
+    font-size: large;
+    text-overflow: clip;
+}
+
+.main_logo {
+    width: 30%;
+}
+
+.image1 {
+    width: 95%;
+}
+@media (max-width: 200px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+.container .head {
+    color: #fbfdce;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: linear-gradient(30deg, #dfe155, #ed4901);
+}
+.icon-footer {
+    display: inline-block; /* or use 'inline' */
+    margin-right: 10px; /* add some margin for spacing */
+}
+
+i {
+    margin-right: 5px; /* add some margin for spacing between icon and text */
+}

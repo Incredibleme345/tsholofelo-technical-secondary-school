@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>form APPLICATION</title>
+</head>
+
+<body>
+
+    <section class="main-section">
+        <div class="main-content">
+            <img class="main_logo" src="../IMAGES/logo.jpg" alt="Description of main content image" />   
+        </div>
+        <div class="download">
+            <p>Download The Form Application HERE for grade 8</form></p>
+            <button id="downloadBtn">Download PDF</button>
+            
+        </div>
+    
+
+        <footer class="footer-distributed">
+            <div class="footer-center">
+                <div>
+                    <div class="school_name">
+                        <p class="footer-heading">Tsholofelo Technical</p>
+                    </div>
+                    <div class="icon-footer">
+                        <p class="text">+91 749XXXX258</p>
+                        <p class="text" style="margin-bottom:1px;">3432 Bophuthatswana St, Boitekong, Rustenburg, 0300</p>
+                    </div>
+                    <div class="school_name">
+                        <p class="footer-heading">Contact us</p>
+                        <p class="text">063 881 9869</p>
+                        <p class="text">071 345 8605</p>
+                        <p><a class="text" href="mailto:codeprogram012gmail.com?subject=Feedback&body=Hi%20there,">tsholofelotechweb@gmail.com</a></p>
+
+                    </div>
+
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/YourPage" target="_blank" class="fab fa-facebook"></a>
+                        <a href="https://twitter.com/YourPage" target="_blank" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/increrasableme" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/YourProfile" target="_blank" class="fab fa-linkedin"></a>
+                        <a href="https://www.youtube.com/user/YourChannel" target="_blank" class="fab fa-youtube"></a>
+                    </div>
+                    <hr class="line">
+                    <p class="copy-right" style="text-align: center;">Copyright © 2024 High School Tsholofelo | All Rights Reserved | Website Design By Graphica Designs</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script>
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+    // Replace 'path_to_your_file' with the path to your file
+            var filePath = 'path_to_your_file';
+            downloadFile(filePath);
+        });
+
+        function downloadFile(path) {
+            var link = document.createElement('a');
+            link.href = path;
+            link.download = path.split('/').pop(); // Extracts filename from URL for the downloaded file
+            link.click();
+        }
+    </script>
+</body>
+
+</html>

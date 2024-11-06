@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="admission.css">
+    <title>ADMISSION</title>
+</head>
+
+<body>
+
+    <section class="main-section">
+        <div class="main-content">
+            <div class="heading-background">
+                <img class="main_logo" src="../IMAGES/logo.jpg" alt="Description of main content image" />
+            </div>
+            <img class="image1" src="../IMAGES/admission.jpg" />
+            <h1 class="main-text"> <font color="brown">Admissions</font> </h1>
+        </div>
+        <section>
+            <ul class="myUL">
+                <li><button class="caret-btn">Enrolment into Grade 8</button>
+                    <ul class="nested">
+                        <li style="margin-bottom: 10px; font-size: larger; font-weight: bold;"><h5>PLEASE NOTE:</h5></li>
+                        <li style="margin-left: 25px;">-Application Period Begins: Get ready to apply from 
+                            May 2, 2023. Mark your calendars!</li>
+                        <li style="margin-left: 25px;">-Important Deadline Alert: Please note that
+                             we won't be able to accept any applications submitted after the deadline.
+                             So, make sure you get yours in on time! </li>
+                        <li style="margin-left: 25px;">-Fill in the Required Fields: When completing your app
+                            lication, don't forget to fill in all the fields marked 
+                            with a little star (*). It's super important!</li>
+                        <li style="margin-left: 25px;">-Certify Your Documents: Before attaching your documents, make sure
+                             they're certified. We want to make sure e
+                            verything's in order for you.</li>
+                        <li style="margin-left: 25px;">-A Little Reminder: This application form is for parents or legal
+                             guardians to complete. We appreciate your cooperation!</li>
+                        <li style="margin-left: 25px;">-Download and Submit: If you prefer, you can download the application form below.
+                             Once you've filled it out, just follow the instructions to submit it.</li>
+                        <li style="margin-left: 25px; margin-top:20px">-We're eagerly looking forward to getting your application. Let's make 
+                            2024 an amazing year together!</li>
+                        <li style="margin-left: 25px;">-Technology</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="myUL">
+                <li><button class="caret-btn">School Fees</button>
+                    <ul class="nested">
+                        <li  style="margin-bottom: 10px; font-size: larger; font-weight: bold;"><h5>Registration</h5></li>
+                        <li style="margin-left: 25px;">-Setswana Home Language</li>
+                        <li style="margin-left: 25px;">-English First Additional Language</li>
+                        <li style="margin-left: 25px;">-Life Orientation</li>
+                        <li  style="margin-bottom: 10px; font-size: larger; font-weight: bold;"><h5>School Fees</h5></li>
+                        <li style="margin-left: 25px;">-Natural Sciences</li>
+                        <li style="margin-left: 25px;">-Creative Arts</li>
+                        <li style="margin-left: 25px;">-Economic Management Sciences</li>
+                        <li style="margin-left: 25px;">-Technology</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </section>
+
+        <footer class="footer-distributed">
+            <div class="footer-center">
+                <div>
+                    <div class="school_name">
+                        <p class="footer-heading">Tsholofelo Technical</p>
+                    </div>
+                    <div class="icon-footer">
+                        <p class="text">+91 749XXXX258</p>
+                        <p class="text" style="margin-bottom:1px;">3432 Bophuthatswana St, Boitekong, Rustenburg, 0300</p>
+                    </div>
+                    <div class="school_name">
+                        <p class="footer-heading">Contact us</p>
+                        <p class="text">063 881 9869</p>
+                        <p class="text">071 345 8605</p>
+                        <p><a class="text" href="mailto:codeprogram012gmail.com?subject=Feedback&body=Hi%20there,">tsholofelotechweb@gmail.com</a></p>
+
+                    </div>
+
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/YourPage" target="_blank" class="fab fa-facebook"></a>
+                        <a href="https://twitter.com/YourPage" target="_blank" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/increrasableme" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/YourProfile" target="_blank" class="fab fa-linkedin"></a>
+                        <a href="https://www.youtube.com/user/YourChannel" target="_blank" class="fab fa-youtube"></a>
+                    </div>
+                    <hr class="line">
+                    <p class="copy-right" style="text-align: center;">Copyright © 2024 High School Tsholofelo | All Rights Reserved | Website Design By Graphica Designs</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+        const caretButtons = document.querySelectorAll('.caret-btn');
+        caretButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                this.classList.toggle('caret-down');
+                const nestedContent = this.nextElementSibling;
+                nestedContent.classList.toggle('active');
+            });
+        });
+    });
+
+    </script>
+</body>
+
+</html>
