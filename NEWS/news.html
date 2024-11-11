@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="news.css"
+    <title>NEWS</title>
+
+    <style>
+        /* Your CSS styles */
+    </style>
+</head>
+<body>
+    <!-- Banner Section -->
+    <div class="banner">
+        <div class="banner-title">Welcome to Our School News Page!</div>
+        <div class="banner-description">Stay updated with the latest news and events from our school.</div>
+    </div>
+
+    <!-- Container for News Boxes -->
+    <div class="news-container">
+        <!-- News Box 1 -->
+        <div class="news-box event1">
+            <div class="news-date">April 1, 2024 14:00</div>
+            <div class="news-headline">Exciting Event Coming Up!</div>
+            <div class="notification" onclick="showNotificationTime('event1', 60)">Notification: 1 hour before event</div>
+            <p>Join us for the grand unveiling of our state-of-the-art science lab. Witness groundbreaking experiments and demonstrations that will ignite your curiosity!</p>
+        </div>
+
+        <!-- News Box 2 -->
+        <div class="news-box event2">
+            <div class="news-date">April 2, 2024 15:30</div>
+            <div class="news-headline">Important Announcement</div>
+            <div class="notification" onclick="showNotificationTime('event2', 30)">Notification: 30 minutes before</div>
+            <p>Calling all aspiring musicians! Don't miss your chance to audition for the school band. Showcase your talent and be part of an unforgettable musical journey.</p>
+        </div>
+
+        <!-- News Box 3 -->
+        <div class="news-box event3">
+            <div class="news-date">April 3, 2024 10:00</div>
+            <div class="news-headline">Upcoming School Holiday</div>
+            <div class="notification" onclick="showNotificationTime('event3', 1440)">Notification: Tomorrow</div>
+            <p>Embark on a thrilling adventure with our upcoming school trip. Explore breathtaking landscapes, delve into rich cultural</p>
+        </div>
+
+        <!-- Add more news boxes -->
+        <!-- News Box 4 -->
+        <div class="news-box event4">
+            <div class="news-date">April 4, 2024 09:00</div>
+            <div class="news-headline">Science Fair Results</div>
+            <div class="notification" onclick="showNotificationTime('event4', 120)">Notification: 2 hours before</div>
+            <p>Discover the winners of our annual Science Fair and their innovative projects. Don't miss this opportunity to witness the future scientists!</p>
+        </div>5MFNJQGAMY4
+
+        <!-- News Box 5 -->
+        <div class="news-box event5">
+            <div class="news-date">April 5, 2024 13:45</div>
+            <div class="news-headline">Student Council Elections</div>
+            <div class="notification" onclick="showNotificationTime('event5', 60)">Notification: 1 hour before</div>
+            <p>Get ready to cast your votes for the next student council members. Make your voice heard and participate in shaping the future of our school!</p>
+        </div>
+
+        <!-- News Box 6 -->
+        <div class="news-box event6">
+            <div class="news-date">April 6, 2024 11:30</div>
+            <div class="news-headline">Sports Day Preparations</div>
+            <div class="notification" onclick="showNotificationTime('event6', 240)">Notification: 4 hours before</div>
+            <p>Join us as we gear up for an exciting Sports Day! From relay races to tug-of-war, it's going to be a day filled with fun and camaraderie.</p>
+        </div>
+
+        <!-- News Box 7 -->
+        <div class="news-box event7">
+            <div class="news-date">April 7, 2024 12:15</div>
+            <div class="news-headline">Guest Speaker Visit</div>
+            <div class="notification" onclick="showNotificationTime('event7', 45)">Notification: 45 minutes before</div>
+            <p>We're honored to welcome a distinguished guest speaker to our school. Prepare to be inspired and enlightened by their insightful words.</p>
+        </div>
+
+        <!-- News Box 8 -->
+        <div class="news-box event8">
+            <div class="news-date">April 8, 2024 14:30</div>
+            <div class="news-headline">Book Fair Extravaganza</div>
+            <div class="notification" onclick="showNotificationTime('event8', 90)">Notification: 1.5 hours before</div>
+            <p>Calling all book lovers! Explore a treasure trove of literary delights at our annual Book Fair. From classics to bestsellers, there's something for everyone!</p>
+        </div>
+
+        <!-- News Box 9 -->
+        <div class="news-box event9">
+            <div class="news-date">April 9, 2024 10:30</div>
+            <div class="news-headline">Career Guidance Workshop</div>
+            <div class="notification" onclick="showNotificationTime('event9', 120)">Notification: 2 hours before</div>
+            <p>Discover various career paths and gain valuable insights into your future. Don't miss this opportunity to chart your course towards success!</p>
+        </div>
+
+        <!-- News Box 10 -->
+        <div class="news-box event10">
+            <div class="news-date">April 10, 2024 16:00</div>
+            <div class="news-headline">Art Exhibition Opening</div>
+            <div class="notification" onclick="showNotificationTime('event10', 30)">Notification: 30 minutes before</div>
+            <p>Immerse yourself in the world of art as we unveil captivating masterpieces created by our talented students. Get ready to be dazzled!</p>
+        </div>
+    </div>
+
+     <!-- Footer Section -->
+     <footer class="footer-distributed">
+        <div class="footer-center">
+            <div class="school_name">
+                <p class="footer-heading">Tsholofelo Technical</p>
+            </div>
+            <div class="icon-footer">
+                <p class="text">+91 749XXXX258</p>
+                <p class="text">3432 Bophuthatswana St, Boitekong, Rustenburg, 0300</p>
+            </div>
+            <div class="contact-info">
+                <p class="footer-heading">Contact us</p>
+                <p class="text">Phone: 063 881 9869</p>
+                <p class="text">Mobile: 071 345 8605</p>
+                <p><a class="email-link" href="mailto:tsholofelotechweb@gmail.com?subject=Feedback&body=Hi%20there,">tsholofelotechweb@gmail.com</a></p>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/YourPage" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://twitter.com/YourPage" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/increrasableme" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/YourProfile" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://www.youtube.com/user/YourChannel" target="_blank" class="fab fa-youtube"></a>
+            </div>
+        </div>
+        <hr class="line">
+        <p class="copy-right">Copyright © 2024 High School Tsholofelo | All Rights Reserved | Website Design By Graphica Designs</p>
+    </footer>
+
+    <script>
+        // Function to show notification time when clicked
+        function showNotificationTime(eventClass, minutesBefore) {
+            var currentDate = new Date();
+            var eventDate = new Date(document.querySelector('.' + eventClass).querySelector('.news-date').textContent.trim());
+            var notificationTime = new Date(eventDate.getTime() - minutesBefore * 60000); // Convert minutes to milliseconds
+
+            // Format notification time message
+            var hours = notificationTime.getHours();
+            var minutes = notificationTime.getMinutes();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // Handle midnight (0 hours)
+            minutes = minutes < 10 ? '0' + minutes : minutes; // Add leading zero for single digit minutes
+            var notificationMessage = 'Notification at ' + hours + ':' + minutes + ' ' + ampm;
+
+            // Display notification time
+            alert(notificationMessage);
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
